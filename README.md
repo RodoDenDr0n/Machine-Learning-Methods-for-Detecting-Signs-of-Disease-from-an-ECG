@@ -100,14 +100,14 @@ Most of the project code was developed in Google Colab. It is highly recommended
 | Metric      | LSTM Raw | LSTM Filtered | GRU Raw    | GRU Filtered | CNN-GRU Raw | CNN-GRU Filtered |
 |-------------|----------|---------------|------------|--------------|-------------|------------------|
 | Loss        | 0.3358   | **0.2926**    | **0.2677** | 0.2730       | 0.2752      | <b>0.2719</b>   |
-| AUC         | 0.8546   | <b>0.9010</b>        | <b>0.9229</b>     | 0.9205       | 0.9220      | <span style="color:red"><b>0.9237</b></span>   |
-| F<sub>1</sub> score   | 0.5108   | <b>0.6588</b>        | <span style="color:red"><b>0.6989</b></span>     | 0.6774       | 0.6811      | <b>0.6830</b>           |
-| F<sub>β</sub> score   | 0.5825   | <b>0.7372</b>        | <span style="color:red"><b>0.7810</b></span>     | 0.7544       | <b>0.7707 </b>     | 0.7640           |
-| Precision   | 0.4977   | <b>0.5651</b>        | <b>0.5954</b>     | 0.5911       | 0.5753      | <span style="color:red"><b>0.5967</b></span>   |
-| Recall      | 0.6444   | <b>0.8047 <b>       | <b>0.8479</b>     | 0.8229       | <span style="color:red"><b>0.8481</b></span>      | 0.8379           |
-| Accuracy    | 0.8204   | <b>0.8419</b>       | <span style="color:red"><b>0.8581</b></span>     | 0.8558       | 0.8461      | <b>0.8522</b>           |
-| NPV         | 0.9377   | <b>0.9495</b>       | <b>0.9615</b>     | 0.9589       | <span style="color:red"><b>0.9627</b></span>      | 0.9620           |
-| Specificity | 0.8088   | <b>0.8294</b>        | 0.8375     | <span style="color:red"><b>0.8394</b></span>   | 0.8197      | <b>0.8314</b>          |
+| AUC         | 0.8546   | <b>0.9010</b>        | <b>0.9229</b>     | 0.9205       | 0.9220      | <span style="color:red"><u><b>0.9237</b></u></span>   |
+| F<sub>1</sub> score   | 0.5108   | <b>0.6588</b>        | <span style="color:red"><u><b>0.6989</b></u></span>     | 0.6774       | 0.6811      | <b>0.6830</b>           |
+| F<sub>β</sub> score   | 0.5825   | <b>0.7372</b>        | <span style="color:red"><u><b>0.7810</b></u></span>     | 0.7544       | <b>0.7707 </b>     | 0.7640           |
+| Precision   | 0.4977   | <b>0.5651</b>        | <b>0.5954</b>     | 0.5911       | 0.5753      | <span style="color:red"><u><b>0.5967</b></u></span>   |
+| Recall      | 0.6444   | <b>0.8047 <b>       | <b>0.8479</b>     | 0.8229       | <span style="color:red"><u><b>0.8481</b></u></span>      | 0.8379           |
+| Accuracy    | 0.8204   | <b>0.8419</b>       | <span style="color:red"><u><b>0.8581</b></u></span>     | 0.8558       | 0.8461      | <b>0.8522</b>           |
+| NPV         | 0.9377   | <b>0.9495</b>       | <b>0.9615</b>     | 0.9589       | <span style="color:red"><u><b>0.9627</b></u></span>      | 0.9620           |
+| Specificity | 0.8088   | <b>0.8294</b>        | 0.8375     | <span style="color:red"><u><b>0.8394</b></u></span>   | 0.8197      | <b>0.8314</b>          |
 
 Through experiments, we have shown that ECG signal filtering has significantly improved the performance of the LSTM model across all metrics. However, for the GRU
 and CNN-GRU models, the results are mixed. In particular, GRU produces better results on raw signals, while using filtered signals with CNN-GRU improves primary AUC and secondary F1 score.
