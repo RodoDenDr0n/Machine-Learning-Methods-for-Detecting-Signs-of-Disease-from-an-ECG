@@ -56,7 +56,7 @@ Here we provide the description of directories that are used in the project.
 |---|---|
 |[ptbxl](https://drive.google.com/drive/folders/1ouuRNhCcREcsva9WhLlBOuJ1Fht6rCqY?usp=drive_link)|Directory contains PTB-XL database.|
 |[data](https://drive.google.com/drive/folders/1H5VFBgcAZ79htBH0j-kLH3xvk6MBeO5l?usp=drive_link)|Directory contains labels, raw and preprocessed ECG signals used for models training, validation and testing.|
-|models|Directory contains models trained for experiments on raw and filtered ECG signals and their spectral representations in spectrograms and scaleograms in correponding directories.|
+|[models](https://drive.google.com/drive/folders/1YX1Y9W2HooTxthTH_PqBq2WhYFccryWS?usp=drive_link)|Directory contains models trained for experiments on raw and filtered ECG signals and their spectral representations in spectrograms and scaleograms in correponding directories. We provide the hyperlink to it on Google Drive due to their large size.|
 |training|Directory contains metrics recorded for each model throughout its training and validation processes.|
 |testing|Directory contains metrics recorded for each model throughout its testing process.|
 |visualizations|Directory contains visualizations for each model training, validation and testing processes in corresponding directories.|
