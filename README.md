@@ -4,21 +4,7 @@ Implementation of experiments described in undergraduated thesis conducted by An
 
 ## Abstract
 
-Deep learning has shown strong potential in automating ECG analysis to support
-clinical decision-making. Most approaches to this problem use either the time domain
-or time-frequency domain representation of signals and focuse narrowly on detecting
-one specific class of diseases. This study compares deep learning approaches to detect
-multiple disease classes from ECG, analyzing the effects of different signal prepro-
-cessing and lead reduction on model performance in both time and time-frequency
-domains. In the time domain the comparison was conducted both on raw and filtered
-ECG signals and on ECGs with full and reduced set of leads, which were evaluated
-with LSTM, GRU, and CNN-GRU models. In the time-frequency domain, the per-
-formance of ResNet models of different depth trained on spectrograms (STFT) and
-scalograms (CWT) were compared. The study showed that signal filtering improved
-LSTM performance, but had limited or negative effects on other models. Deeper
-ResNets trained on scalograms showed stable or improved secondary metrics, although
-spectrogram-based ResNet18 achieved the highest primary metric. The reduction of
-ECG leads did not significantly affect prediction quality of models.
+Deep learning has shown strong potential in automating ECG analysis to support clinical decision-making. Most approaches to this problem use either the time domain or time-frequency domain representation of signals and focus narrowly on detecting one specific class of diseases. This study compares deep learning approaches to detect multiple disease classes from ECG, analyzing the effects of different signal preprocessing and lead reduction on model performance in both time and time-frequency domains. In the time domain the comparison was conducted both on raw and filtered ECG signals and on ECGs with full and reduced set of leads, which were evaluated with LSTM, GRU, and CNN-GRU models. In the time-frequency domain, the performance of ResNet models of different depth trained on spectrograms (STFT) and scaleograms (CWT) were compared. The study showed that signal filtering improved LSTM performance, but had limited or negative effects on other models. Deeper ResNets trained on scaleograms showed stable or improved secondary metrics, although spectrogram-based ResNet18 achieved the highest primary metric. The reduction of ECG leads did not significantly affect prediction quality of models.
 
 ## Data
 
