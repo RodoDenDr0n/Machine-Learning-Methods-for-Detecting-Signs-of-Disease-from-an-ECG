@@ -93,8 +93,7 @@ Here we provide the description of files that are used in the project.
 
 ## Set up
 
-The code is designed to be downloaded and ran in Google Colab. It is highly recommended 
-
+Most of the project code was developed in Google Colab. It is highly recommended to download the repository to your Google Drive and run the notebooks directly in Colab.
 
 ## Results
 
